@@ -5,6 +5,8 @@
         "esModuleInterop": true,
         "target": "ES2021",
         "outDir": "dist",
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        // 암시적 any type을 허용하지 않는다.
+        "noImplicitAny": true
     }
 }
