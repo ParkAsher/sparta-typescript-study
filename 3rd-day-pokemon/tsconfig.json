@@ -1,0 +1,12 @@
+{
+    "include": ["src/**/*.ts"],
+    "compilerOptions": {
+        "lib": ["ES2015", "dom"],
+        "esModuleInterop": true,
+        "target": "ES5",
+        "outDir": "dist",
+        "strictNullChecks": true,
+        // 암시적 any type을 허용하지 않는다.
+        "noImplicitAny": true
+    }
+}
