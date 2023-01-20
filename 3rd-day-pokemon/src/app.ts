@@ -9,9 +9,9 @@ interface IPokemon {
     type: string;
 }
 
-const fecthData = (): void => {
+const fecthData = async (): Promise<void> => {
     for (let i = 1; i <= pokemons; i++) {
-        getPokemon(i);
+        await getPokemon(i);
     }
 };
 
